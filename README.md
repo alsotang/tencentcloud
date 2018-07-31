@@ -2,9 +2,9 @@
 
 这是个腾讯云-云API3.0平台的Node.js库。
 
-再官方的库之上做了包装，以更符合js风格的api来进行调用，官方仓库见：
+在官方的库之上做了包装，以更符合js风格的api来进行调用，官方仓库见：
 
-`https://github.com/TencentCloud/tencentcloud-sdk-nodejs`
+https://github.com/TencentCloud/tencentcloud-sdk-nodejs
 
 ## 安装 
 
@@ -36,9 +36,13 @@ async function main() {
       },
     ]
   })
+  
+  console.log(response)
 }
 main()
 ```
+
+初始化sdk完成后，根据腾讯云的文档来决定要调用的action名称和参数，传入`.call`方法中即可。
 
 ## license
 
