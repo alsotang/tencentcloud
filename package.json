@@ -1,0 +1,12 @@
+{
+  "name": "tencentcloud",
+  "version": "1.0.0",
+  "description": "Node.js sdk for tencent cloud",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "tencentcloud-sdk-nodejs": "3.x"
+  }
+}
