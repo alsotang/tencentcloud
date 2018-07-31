@@ -12,4 +12,34 @@
 
 ## 示例
 
-默认使用最新version。region默认 `ap-guangzhou`
+```js
+const tencentcloud = require('tencentcloud')
+
+async function main() {
+  let sdk = new tencentcloud({
+    // 必填
+    secretId: 'YOUR_SECRET_ID',
+    secretKey: 'YOUR_SECRET_KEY',
+    serviceType: 'cvm',
+    
+    // 选填
+    region: 'ap-guangzhou', // 不填则默认 `ap-guangzhou`
+    version: 'v20170312', // 不填则默认使用最新version
+  })
+  
+  // https://cloud.tencent.com/document/api/213/15728
+  const response = await sdk.call('DescribeInstances', {
+    Filters: [
+      {
+        Name: "zone",
+        Values: ["ap-guangzhou-1", "ap-guangzhou-2"]
+      },
+    ]
+  })
+}
+main()
+```
+
+## license
+
+MIT

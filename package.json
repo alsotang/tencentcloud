@@ -1,6 +1,6 @@
 {
   "name": "tencentcloud",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "Node.js sdk for tencent cloud",
   "main": "index.js",
   "scripts": {},
@@ -8,5 +8,10 @@
   "license": "MIT",
   "dependencies": {
     "tencentcloud-sdk-nodejs": "3.x"
+  },
+  "devDependencies": {
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^5.2.0",
+    "power-assert": "^1.6.0"
   }
 }
