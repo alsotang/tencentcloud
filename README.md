@@ -44,6 +44,8 @@ main()
 
 初始化sdk完成后，根据腾讯云的文档来决定要调用的action名称和参数，传入`.call`方法中即可。
 
+腾讯云API中心： https://cloud.tencent.com/document/api
+
 ## license
 
 MIT
