@@ -1,9 +1,17 @@
 {
   "name": "tencentcloud",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Node.js sdk for tencent cloud",
   "main": "index.js",
   "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alsotang/tencentcloud.git"
+  },
+  "keywords": [
+    "tencentcloud",
+    "sdk"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
